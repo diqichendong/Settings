@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="descansar_default">0</integer>
+    <integer name="pantalla_default">0</integer>
+    <integer name="fuente_default">5</integer>
+    <integer name="fuente_max">20</integer>
+    <integer name="fuente_min">1</integer>
+</resources>

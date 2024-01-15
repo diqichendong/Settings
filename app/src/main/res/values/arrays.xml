@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="empty_array" />
+
+    <string-array name="pref_subida_entries">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>@string/original</item>
+    </string-array>
+
+    <string-array name="pref_subida_values">
+        <item>360</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>9999</item>
+    </string-array>
+
+    <string-array name="pref_datos_entries">
+        <item>@string/solo_wifi</item>
+        <item>@string/solo_datos</item>
+        <item>@string/cualquiera</item>
+    </string-array>
+
+    <string-array name="pref_datos_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_pantalla_entries">
+        <item>1 min</item>
+        <item>5 min</item>
+        <item>30 min</item>
+        <item>@string/nunca</item>
+    </string-array>
+
+    <string-array name="pref_pantalla_values">
+        <item>1</item>
+        <item>5</item>
+        <item>30</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="pref_descansar_entries">
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>5 horas</item>
+        <item>8 horas</item>
+    </string-array>
+
+    <string-array name="pref_descansar_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>8</item>
+    </string-array>
+</resources>

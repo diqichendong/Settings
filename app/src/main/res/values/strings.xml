@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Preferences Setting</string>
+
+    <string name="ad_borrar_titulo">Restaurar configuración</string>
+    <string name="ad_borrar_mensaje">¿Desea restaurar la configuración por defecto de todas sus preferencias?</string>
+    <string name="ad_cancelar">CANCELAR</string>
+    <string name="ad_aceptar">ACEPTAR</string>
+
+    <string name="cat_tit_relax">Relax:</string>
+    <string name="cat_tit_pantalla">Pantalla:</string>
+    <string name="cat_tit_conexiones">Conexiones:</string>
+
+    <string name="pref_dialog_tit_descansar">Recordar tomar un descanso</string>
+    <string name="pref_tit_descansar">Descansar</string>
+    <string name="pref_sum_descansar">Frecuencia de recordatorio</string>
+    <string name="pref_key_descansar">key_descansar</string>
+
+    <string name="default_alarma">a descansar!</string>
+    <string name="pref_key_alarma">key_alarma</string>
+    <string name="pref_tit_alarma">Nombre alarma</string>
+    <string name="pref_dialog_tit_alarma">Nombre recordatorio alarma</string>
+    <string name="pref_sum_alarma">Nombre recordatorio de la alarma</string>
+
+    <string name="pref_dialog_tit_pantalla">Apagar pantalla</string>
+    <string name="pref_tit_pantalla">Apagar pantalla</string>
+    <string name="pref_sum_pantalla">Minutos para apagar la pantalla</string>
+    <string name="pref_key_pantalla">key_pantalla</string>
+
+    <string name="pref_key_fuente">key_fuente</string>
+    <string name="pref_tit_fuente">Tamaño fuente</string>
+    <string name="pref_sum_fuente">Establezca el tamaño de la fuente</string>
+
+    <string name="pref_tit_modo_oscuro">Establecer modo oscuro</string>
+    <string name="pref_key_modo_oscuro">key_modo_oscuro</string>
+
+    <string name="pref_key_datos">key_datos</string>
+    <string name="pref_tit_datos">Limitar el uso de datos móviles</string>
+    <string name="pref_dialog_tit_datos">Uso datos móviles</string>
+    <string name="pref_sum_datos">Envío de video HD sobre Wi-Fi</string>
+    <string name="solo_wifi">Sólo con Wi-Fi</string>
+    <string name="solo_datos">Sólo en red de datos</string>
+    <string name="cualquiera">En cualquier red</string>
+
+    <string name="pref_key_calidad">key_calidad</string>
+    <string name="pref_tit_calidad">Descargar vídeo</string>
+    <string name="pref_dialog_tit_calidad">Descargas de vídeos</string>
+    <string name="pref_sum_calidad">Especifica la calidad de las descargas</string>
+
+    <string name="pref_tit_modo_restrictivo">Modo restrictivo</string>
+    <string name="pref_key_modo_restrictivo">key_modo_restrictivo</string>
+    <string name="pref_sum_modo_restrictivo">El modo restrictivo puede ayudarte a ocultar videos con contenido potencialmente para adultos.</string>
+
+    <string name="pref_tit_estadisticas">Habilitar estadísticas de uso</string>
+    <string name="pref_key_estadisticas">key_estadisticas</string>
+
+    <string name="def_descansar">true</string>
+    <string name="tit_descansar">Recordar descansar</string>
+
+    <string name="original">Original</string>
+    <string name="nunca">Nunca</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Menu titles -->
+    <string name="menu_borrar">Borrar</string>
+    <string name="menu_config">Configuración</string>
+</resources>

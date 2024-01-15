@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/cat_tit_relax">
+        <ListPreference
+            android:title="@string/pref_tit_descansar"
+            android:dialogTitle="@string/pref_dialog_tit_descansar"
+            android:defaultValue="@integer/descansar_default"
+            android:entries="@array/pref_descansar_entries"
+            android:entryValues="@array/pref_descansar_values"
+            android:key="@string/pref_key_descansar"
+            android:summary="@string/pref_sum_descansar" />
+
+        <EditTextPreference
+            android:defaultValue="@string/default_alarma"
+            android:key="@string/pref_key_alarma"
+            android:title="@string/pref_tit_alarma"
+            android:dialogTitle="@string/pref_dialog_tit_alarma"
+            android:summary="@string/pref_sum_alarma"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/cat_tit_pantalla">
+        <ListPreference
+            android:defaultValue="@integer/pantalla_default"
+            android:dialogTitle="@string/pref_dialog_tit_pantalla"
+            android:entries="@array/pref_pantalla_entries"
+            android:entryValues="@array/pref_pantalla_values"
+            android:key="@string/pref_key_pantalla"
+            android:summary="@string/pref_sum_pantalla"
+            android:title="@string/pref_tit_pantalla" />
+
+        <SeekBarPreference
+            android:defaultValue="@integer/fuente_default"
+            android:key="@string/pref_key_fuente"
+            android:max="@integer/fuente_max"
+            android:summary="@string/pref_sum_fuente"
+            android:title="@string/pref_tit_fuente"
+            app:min="@integer/fuente_min" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_modo_oscuro"
+            android:title="@string/pref_tit_modo_oscuro" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/cat_tit_conexiones">
+        <MultiSelectListPreference
+            android:defaultValue="@array/empty_array"
+            android:dialogTitle="@string/pref_dialog_tit_datos"
+            android:entries="@array/pref_datos_entries"
+            android:entryValues="@array/pref_datos_values"
+            android:key="@string/pref_key_datos"
+            android:summary="@string/pref_sum_datos"
+            android:title="@string/pref_tit_datos" />
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/empty_array"
+            android:dialogTitle="@string/pref_dialog_tit_calidad"
+            android:entries="@array/pref_subida_entries"
+            android:entryValues="@array/pref_subida_values"
+            android:key="@string/pref_key_calidad"
+            android:summary="@string/pref_sum_calidad"
+            android:title="@string/pref_tit_calidad" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_modo_restrictivo"
+            android:title="@string/pref_tit_modo_restrictivo"
+            android:summary="@string/pref_sum_modo_restrictivo" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_estadisticas"
+            android:title="@string/pref_tit_estadisticas" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
